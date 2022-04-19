@@ -1,0 +1,121 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+}
+.main{
+  background-color: lightgoldenrodyellow;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  padding: 30px;
+  text-align: center;
+}
+.btn:active{
+  transform: scale(0.9);
+}
+
+.container h1{
+  color:chocolate;
+  border-bottom: 2px solid chocolate;
+  letter-spacing: 2px;
+  padding-bottom: 5px;
+  display: inline;
+}
+.container input{
+  margin: 40px 10px 20px 15px;
+  padding: 5px;
+  border: none;
+  background-color: transparent;
+  border-bottom: 1px solid chocolate;
+  outline: none;
+  color: darkslategrey;
+  text-align: center;
+}
+.container #addbtn{
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: none;
+  color: saddlebrown;
+  background-color: #fff;
+  box-shadow: 5px 5px 10px -5px rgba(0, 0, 0, 0.2);
+  font-size:large;
+  font-weight: bolder;
+  margin-right: 5px;
+}
+
+.container #delbtn{
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: none;
+  color: saddlebrown;
+  background-color: #fff;
+  box-shadow: 5px 5px 10px -5px rgba(0, 0, 0, 0.2);
+  font-size: medium;
+  font-weight: bolder;
+  margin-right: 5px;
+}
+
+.container ol li{
+  color: darkred;
+  font-size: small;
+  text-align: left;
+  margin-left: 25px;
+  list-style: none;
+  padding-bottom: 10px;
+}
+
+.todoStyle{
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+.btns{
+  display: flex;
+}
+.todoStyle .fa-check{
+  width: 15px;
+  height: 15px;
+  font-size: x-small;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  border-radius: 50%;
+  margin: 0 10px 0 35px;
+  color: green;
+  box-shadow: 5px 5px 10px -5px rgba(0, 0, 0, 0.2);
+}
+
+.todoStyle .fa-xmark{
+  width: 15px;
+  height: 15px;
+  font-size: x-small;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  border-radius: 50%;
+  color: red;
+  box-shadow: 5px 5px 10px -5px rgba(0, 0, 0, 0.2);
+  margin-right: 10px;
+}
+.todoStyle .fa-pencil{
+  width: 15px;
+  height: 15px;
+  font-size: xx-small;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  border-radius: 50%;
+  color: lightseagreen;
+  box-shadow: 5px 5px 10px -5px rgba(0, 0, 0, 0.2);
+}
+
